@@ -7,4 +7,4 @@ php:
 #extension = memcache(d).so
 
 after_success:
-    wput -r 'ftp://gpirujo_dh:ku3r2A%3Ff@fever.dreamhost.com/'
+    ftp -u 'ftp://gpirujo_dh:ku3r2A%3Ff@fever.dreamhost.com/' *
