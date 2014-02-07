@@ -1,0 +1,10 @@
+language: php
+php:
+    - 5.4
+
+#before_script: phpenv config-add php.ini
+#extension = apc.so
+#extension = memcache(d).so
+
+after_success:
+    wget -r 'ftp://gpirujo_dh:ku3r2A%3Ff@fever.dreamhost.com/'
